@@ -19,7 +19,7 @@ async def on_message(message):
         return 
 
     if "$shania" in message.content.lower():
-        await message.channel.send("Let's Go Girls")
+        await message.channel.send("Let's Go, Girls")
         return
 
     if "$impress" in message.content.lower():
