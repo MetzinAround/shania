@@ -17,7 +17,7 @@ async def on_message(message):
 
     if message.author == client.user:
         return 
-
+#this happens if the bot sees $shania anywhere in the discord server. 
     if "$shania" in message.content.lower():
         await message.channel.send("Let's Go, Girls")
         return
